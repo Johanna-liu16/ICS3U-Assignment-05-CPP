@@ -29,7 +29,7 @@ int main() {
         expoNum = std::stof(strExpo);
         if (userNum < 0) {
             std::cout << "This is not a positive integer.";
-        } 
+        }
         for (int loopCounter = 0; loopCounter < expoNum; loopCounter++) {
             answer = answer * userNum;
         }
